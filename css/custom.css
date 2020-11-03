@@ -91,6 +91,19 @@
   font-weight: 16px;
 }
 
+.card {
+  border: none;
+}
+
+.circle-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.border-footer {
+  border-top: 2px solid rgb(216, 216, 216);
+}
 @media only screen and (max-width: 768px) {
   .btn-primary,
   .btn-secondary {
