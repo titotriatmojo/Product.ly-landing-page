@@ -1,0 +1,169 @@
+.btn-primary {
+  background: #ff9900;
+  border: 0;
+  padding: 15px 40px 15px 40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background: none;
+  border: 1px #ff9900 solid;
+  color: #ff9900;
+}
+
+.btn-orange {
+  background: #ff9900;
+  border: 0;
+  padding: 15px 40px 15px 40px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.btn-orange:hover {
+  background: none;
+  border: 1px #ff9900 solid;
+  color: #ff9900;
+}
+
+.btn-secondary {
+  background: none;
+  border: 1px #bcd0e5 solid;
+  padding: 15px 40px 15px 40px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #171717;
+}
+
+.btn-secondary:hover {
+  background: none;
+  border: 1px #a8b8c9 solid;
+  color: #171717;
+}
+
+.hero h1 {
+  font-family: poppins !important;
+  font-weight: 700 !important;
+  color: #171717;
+}
+
+.hero p {
+  font-family: poppins !important;
+  font-weight: 400 !important;
+  font-style: #6c757d;
+}
+
+.navbar-nav .nav-link {
+  color: #171717;
+  font-weight: normal;
+}
+
+.hero_img {
+  width: 600;
+}
+
+.featured-hero {
+  font-family: poppins !important;
+}
+
+.title-featured {
+  font-weight: 500;
+}
+
+.tag1 {
+  font-weight: 16px;
+}
+
+.title1 {
+  font-weight: 36px;
+}
+
+.desk1 {
+  font-weight: 16px;
+}
+
+.title2 {
+  font-weight: 16px;
+}
+
+.desk2 {
+  font-weight: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  .btn-primary,
+  .btn-secondary {
+    margin-top: 10px;
+    margin-left: 0 !important;
+  }
+  .hero h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .hero p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .button-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-icon {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    margin-top: 5%;
+  }
+
+  .icon-featured {
+    margin: 0 auto;
+    display: block;
+  }
+  .title-featured {
+    font-size: 22px;
+    text-align: center;
+  }
+  .desk-featured {
+    font-size: 16px;
+    text-align: center;
+  }
+  .featured-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    margin-top: 5%;
+  }
+  .featured-sectio {
+    text-align: center;
+  }
+  .tag1 {
+    text-align: left;
+    font-size: 13px;
+  }
+  .title1 {
+    text-align: left;
+    font-size: 25px;
+  }
+  .desk1 {
+    text-align: left;
+    font-size: 14px;
+  }
+  .title2 {
+    text-align: left;
+    font-size: 20px;
+  }
+  .desk2 {
+    text-align: left;
+    font-size: 14px;
+  }
+  .desk2-list {
+    text-align: left;
+    font-size: 14px;
+  }
+  .title-featured {
+    text-align: center;
+  }
+}
