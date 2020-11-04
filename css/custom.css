@@ -93,6 +93,7 @@
 
 .card {
   border: none;
+  background: transparent !important;
 }
 
 .circle-bar {
@@ -104,6 +105,96 @@
 .border-footer {
   border-top: 2px solid rgb(216, 216, 216);
 }
+
+.article-yellow {
+  color: #ff9900;
+}
+
+.title-costumer {
+  font-size: 34px;
+  font-weight: bold;
+  color: #2f281e;
+}
+
+.desk-costumer {
+  font-size: 15px;
+  color: #567592;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-costumer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-costumer {
+  background: #ff9900;
+  color: #fff;
+  padding: 15px 40px 15px 40px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.btn-costumer:hover {
+  border-color: #ff9900;
+  background: none;
+  color: #ff9900;
+  padding: 15px 40px 15px 40px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card-title-article {
+  font-size: 24px;
+  color: #2f281e;
+}
+
+.card-text-article {
+  font-size: 16px;
+  color: #544837;
+}
+
+.market-title {
+  font-family: poppins !important;
+  font-weight: 600;
+  font-size: 34px;
+  color: #2f281e;
+}
+
+.market-desk {
+  font-weight: 200;
+  font-family: poppins !important;
+  font-size: 16px;
+  color: #544837;
+}
+
+.carousel-fullscreen .carousel-inner .item {
+  height: 100vh;
+  min-height: 600px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* carousel fullscreen - vertically centered caption*/
+
+.carousel-fullscreen .carousel-caption {
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+/*indicator*/
 @media only screen and (max-width: 768px) {
   .btn-primary,
   .btn-secondary {
@@ -154,15 +245,16 @@
   }
   .tag1 {
     text-align: left;
-    font-size: 13px;
+    font-size: 12px;
   }
   .title1 {
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
   }
   .desk1 {
     text-align: left;
-    font-size: 14px;
+    font-size: 12px;
+    color: #544837;
   }
   .title2 {
     text-align: left;
@@ -171,12 +263,58 @@
   .desk2 {
     text-align: left;
     font-size: 14px;
+    color: #544837;
   }
   .desk2-list {
     text-align: left;
     font-size: 14px;
+    color: #544837;
   }
   .title-featured {
     text-align: center;
+  }
+  .title-costumer {
+    font-size: 14px;
+  }
+  .desk-costumer {
+    font-size: 5px;
+  }
+  .btn-costumer {
+    font-size: 7px;
+    padding: 7px 17px 7px 17px;
+    background: #ff9900;
+    color: #fff;
+  }
+
+  .btn-costumer:hover {
+    font-size: 7px;
+    padding: 7px 17px 7px 17px;
+    background: none;
+    border-color: #ff9900;
+  }
+  .card-title {
+    font-weight: 20px;
+  }
+  .card-text {
+    font-weight: 16px;
+  }
+  .market-title {
+    font-family: poppins !important;
+    font-weight: 600;
+    font-size: 19px;
+  }
+
+  .market-desk {
+    font-weight: 200;
+    font-family: poppins !important;
+    font-size: 12px;
+  }
+
+  .form-footer {
+    width: 248px;
+    height: 48px;
+  }
+  .card-container {
+    margin-top: 14px !important;
   }
 }
