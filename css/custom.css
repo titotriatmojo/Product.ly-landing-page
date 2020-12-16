@@ -1,3 +1,6 @@
+.hero-desk {
+  color: #707070;
+}
 .btn-primary {
   background: #ff9900;
   border: 0;
@@ -32,14 +35,14 @@
   border: 1px #bcd0e5 solid;
   padding: 15px 40px 15px 40px;
   font-size: 16px;
-  font-weight: bold;
-  color: #171717;
+  font-weight: 600;
+  color: #525252;
 }
 
 .btn-secondary:hover {
   background: none;
-  border: 1px #a8b8c9 solid;
-  color: #171717;
+  border: 1px #ff9900 solid;
+  color: #ff9900;
 }
 
 .hero h1 {
@@ -59,6 +62,9 @@
   font-weight: normal;
 }
 
+.navbar-nav .nav-item .nav-link:hover {
+  font-weight: 700;
+}
 .hero_img {
   width: 600;
 }
@@ -194,8 +200,7 @@
   transform: translate(0, -50%);
 }
 
-/*indicator*/
-@media only screen and (max-width: 768px) {
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
   .btn-primary,
   .btn-secondary {
     margin-top: 10px;
