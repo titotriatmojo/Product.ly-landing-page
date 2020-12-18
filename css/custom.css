@@ -199,8 +199,22 @@
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
 }
+@media (max-width: 991.98px) {
+  .btn-primary,
+  .btn-secondary {
+    margin-top: 10px;
+    margin-left: 0 !important;
+  }
+  .form-footer {
+    width: 350px;
+    height: 48px;
+  }
+}
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+@media (max-width: 575.98px) {
+  .logo-brand {
+    width: 150px;
+  }
   .btn-primary,
   .btn-secondary {
     margin-top: 10px;
